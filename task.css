@@ -1,0 +1,74 @@
+body {
+    background: url('https://theartarium.com/cdn/shop/files/DCS_7480.jpg?v=1717163824') no-repeat center center fixed;
+    background-size: cover;
+    object-fit: fill;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.styled-div {
+    font-size: 24px;
+    font-family:cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: ghostwhite;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: black;
+    padding: 10px;
+     margin: 20px;
+}
+
+.text-decoration-right {
+    text-align:right;
+    font-size: 20px;
+    text-shadow: 3px 3px 2px green;
+    text-decoration-line: underline;
+    color: lightgoldenrodyellow;
+    padding: 10px;
+    margin: 20px;
+}
+
+.text-decoration {
+    text-align:left;
+    font-size: 24px;
+    text-shadow: 2px 2px 3px black;
+    text-decoration: overline;
+    color: lightgoldenrodyellow;
+    padding: 10px;
+    margin: 20px;
+}
+
+.images-container {
+    display:grid;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image-left, .image-left-small {
+    width: 30%;
+    border: 2px solid white;
+    box-shadow: 6px 6px black;
+    margin-right: 10px;
+}
+
+.image-left-small {
+    width: 30%;
+}
+
+.image-right {
+    width: 30%;
+    border: 2px solid white;
+    box-shadow: 6px 6px black;   
+}
+.para {
+    width: 30%;
+padding-left: 15px;
+margin-left: 15px;
+float: right;
+font-style: italic;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,88,9,1) 35%, rgba(0,212,255,1) 100%);
+
+}
